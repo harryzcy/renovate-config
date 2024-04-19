@@ -1,0 +1,13 @@
+name: Lint
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  super-linter:
+    name: Super Linter
+    uses: harryzcy/github-actions/.github/workflows/linter.yml@main
