@@ -16,5 +16,10 @@
       "skip-changelog"
     ]
   },
-  "packageRules": []
+  "packageRules": [],
+  "postUpdateOptions": [
+    "gomodTidy",
+    "gomodUpdateImportPaths",
+    "npmDedupe"
+  ]
 }
