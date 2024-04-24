@@ -17,7 +17,15 @@
       "skip-changelog"
     ]
   },
-  "packageRules": [],
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "docker"
+      ],
+      "versioning": "digest",
+      "automerge": true
+    }
+  ],
   "postUpdateOptions": [
     "gomodTidy",
     "gomodUpdateImportPaths",
