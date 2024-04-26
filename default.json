@@ -17,6 +17,9 @@
       "skip-changelog"
     ]
   },
+  "major": {
+    "automerge": false
+  },
   "packageRules": [
     {
       "matchDatasources": [
