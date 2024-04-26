@@ -17,6 +17,9 @@
       "skip-changelog"
     ]
   },
+  "major": {
+    "automerge": false
+  },
   "packageRules": [
     {
       "matchDatasources": [
@@ -26,9 +29,6 @@
       "automerge": true
     }
   ],
-  "major": {
-    "automerge": false
-  },
   "postUpdateOptions": [
     "gomodTidy",
     "gomodUpdateImportPaths",
