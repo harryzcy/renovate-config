@@ -27,6 +27,12 @@
       ],
       "versioning": "digest",
       "automerge": true
+    },
+    {
+      "matchDatasources": [
+        "golang-version"
+      ],
+      "automerge": false
     }
   ],
   "postUpdateOptions": [
