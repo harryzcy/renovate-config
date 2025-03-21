@@ -18,6 +18,7 @@
     ]
   },
   "automergeStrategy": "squash",
+  "rebaseWhen": "behind-base-branch",
   "major": {
     "automerge": false
   },
