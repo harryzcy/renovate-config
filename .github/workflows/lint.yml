@@ -11,3 +11,7 @@ jobs:
   super-linter:
     name: Super Linter
     uses: harryzcy/github-actions/.github/workflows/linter.yml@main
+
+  renovate:
+    name: Renovate Config
+    uses: harryzcy/github-actions/.github/workflows/renovate.yml@main
