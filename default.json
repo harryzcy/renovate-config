@@ -17,6 +17,7 @@
       "skip-changelog"
     ]
   },
+  "automergeStrategy": "squash",
   "major": {
     "automerge": false
   },
