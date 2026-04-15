@@ -40,7 +40,7 @@
       "matchDatasources": [
         "github-digest"
       ],
-      "packageNames": [
+      "matchPackageNames": [
         "harryzcy/github-actions"
       ],
       "automerge": true
