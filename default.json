@@ -35,6 +35,21 @@
         "golang-version"
       ],
       "automerge": false
+    },
+    {
+      "matchDatasources": [
+        "github-digest"
+      ],
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchPackageNames": [
+        "harryzcy/github-actions"
+      ],
+      "matchUpdateTypes": [
+        "digest"
+      ],
+      "automerge": true
     }
   ],
   "postUpdateOptions": [
