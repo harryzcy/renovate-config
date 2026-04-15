@@ -40,6 +40,9 @@
       "matchDatasources": [
         "github-digest"
       ],
+      "matchManagers": [
+        "github-actions"
+      ],
       "matchPackageNames": [
         "harryzcy/github-actions"
       ],
