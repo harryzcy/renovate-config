@@ -43,6 +43,9 @@
       "matchPackageNames": [
         "harryzcy/github-actions"
       ],
+      "matchUpdateTypes": [
+        "digest"
+      ],
       "automerge": true
     }
   ],
