@@ -22,12 +22,13 @@
   "major": {
     "automerge": false
   },
-  "minimumReleaseAge": "3 day",
+  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "matchDatasources": [
         "docker"
       ],
+      "minimumReleaseAge": "1 day",
       "versioning": "digest",
       "automerge": true
     },
@@ -50,6 +51,7 @@
       "matchUpdateTypes": [
         "digest"
       ],
+      "minimumReleaseAge": "1 day",
       "automerge": true
     }
   ],
