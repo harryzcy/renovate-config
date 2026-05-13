@@ -51,7 +51,7 @@
       "matchUpdateTypes": [
         "digest"
       ],
-      "minimumReleaseAge": "1 day",
+      "minimumReleaseAge": "6 hours",
       "automerge": true
     }
   ],
