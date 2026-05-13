@@ -5,6 +5,7 @@
     ":disableDependencyDashboard",
     ":automergeMinor",
     "helpers:pinGitHubActionDigestsToSemver",
+    "security:minimumReleaseAgeNpm",
     ":disableRateLimiting"
   ],
   "labels": [
