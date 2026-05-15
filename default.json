@@ -5,6 +5,7 @@
     ":disableDependencyDashboard",
     ":automergeMinor",
     "helpers:pinGitHubActionDigestsToSemver",
+    "security:minimumReleaseAgeNpm",
     ":disableRateLimiting"
   ],
   "labels": [
@@ -22,11 +23,13 @@
   "major": {
     "automerge": false
   },
+  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "matchDatasources": [
         "docker"
       ],
+      "minimumReleaseAge": "1 day",
       "versioning": "digest",
       "automerge": true
     },
@@ -49,6 +52,7 @@
       "matchUpdateTypes": [
         "digest"
       ],
+      "minimumReleaseAge": "6 hours",
       "automerge": true
     }
   ],
