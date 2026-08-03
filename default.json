@@ -40,6 +40,15 @@
       "automerge": false
     },
     {
+      "matchManagers": [
+        "gomod"
+      ],
+      "matchDepTypes": [
+        "indirect"
+      ],
+      "enabled": true
+    },
+    {
       "matchDatasources": [
         "github-digest"
       ],
