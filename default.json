@@ -29,8 +29,15 @@
       "matchDatasources": [
         "docker"
       ],
-      "minimumReleaseAge": "1 day",
-      "versioning": "digest",
+      "minimumReleaseAge": "1 day"
+    },
+    {
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchUpdateTypes": [
+        "digest"
+      ],
       "automerge": true
     },
     {
