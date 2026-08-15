@@ -56,6 +56,15 @@
       "enabled": true
     },
     {
+      "matchManagers": [
+        "gomod"
+      ],
+      "matchPackageNames": [
+        "golang.org/x/**"
+      ],
+      "groupName": "golang.org/x"
+    },
+    {
       "matchDatasources": [
         "github-digest"
       ],
