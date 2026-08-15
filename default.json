@@ -85,5 +85,13 @@
     "gomodTidy",
     "gomodUpdateImportPaths",
     "npmDedupe"
-  ]
+  ],
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": [
+      "dependencies",
+      "security"
+    ]
+  }
 }
