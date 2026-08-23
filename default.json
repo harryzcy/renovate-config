@@ -33,6 +33,23 @@
     },
     {
       "matchDatasources": [
+        "golang-version",
+        "node-version"
+      ],
+      "minimumReleaseAge": "1 day"
+    },
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchPackageNames": [
+        "actions/go-versions",
+        "actions/node-versions"
+      ],
+      "minimumReleaseAge": "1 day"
+    },
+    {
+      "matchDatasources": [
         "docker"
       ],
       "matchUpdateTypes": [
