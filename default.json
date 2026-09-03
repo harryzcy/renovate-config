@@ -85,6 +85,13 @@
       "matchDatasources": [
         "github-digest"
       ],
+      "versioning": "exact",
+      "extractVersion": null
+    },
+    {
+      "matchDatasources": [
+        "github-digest"
+      ],
       "matchManagers": [
         "github-actions"
       ],
