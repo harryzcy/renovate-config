@@ -33,6 +33,15 @@
     },
     {
       "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "gcr.io/distroless/**"
+      ],
+      "minimumReleaseAge": null
+    },
+    {
+      "matchDatasources": [
         "golang-version",
         "node-version"
       ],
