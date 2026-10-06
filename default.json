@@ -29,16 +29,8 @@
       "matchDatasources": [
         "docker"
       ],
-      "minimumReleaseAge": "1 day"
-    },
-    {
-      "matchDatasources": [
-        "docker"
-      ],
-      "matchPackageNames": [
-        "gcr.io/distroless/**"
-      ],
-      "minimumReleaseAge": null
+      "minimumReleaseAge": "1 day",
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
     },
     {
       "matchDatasources": [
