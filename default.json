@@ -24,6 +24,9 @@
     "automerge": false
   },
   "minimumReleaseAge": "3 days",
+  "constraints": {
+    "npm": "<12"
+  },
   "packageRules": [
     {
       "matchDatasources": [
