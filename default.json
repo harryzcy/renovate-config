@@ -80,6 +80,18 @@
       "matchManagers": [
         "gomod"
       ],
+      "matchDepTypes": [
+        "indirect"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "enabled": false
+    },
+    {
+      "matchManagers": [
+        "gomod"
+      ],
       "matchPackageNames": [
         "golang.org/x/**"
       ],
